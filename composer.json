@@ -1,0 +1,19 @@
+{
+    "name": "php-email/php-email",
+    "description": "php-email is a send email tool",
+    "type": "library",
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpEmail\\PhpEmail\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "galaxy-zh",
+        "email": "1603649280@qq.com"
+    }],
+    "minimum-stability": "dev"
+}
