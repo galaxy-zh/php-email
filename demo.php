@@ -6,7 +6,7 @@ $conf = [
     'user' => '1603649280@qq.com',
     'passord' => 'powwbtrnqgjcgdhb',
 ];
-$obj = new \phpEmail\phpEmail\SendMail($conf['service'], $conf['port'], $conf['user'], $conf['passord']);
+$obj = new \PhpEmail\PhpEmail\SendMail($conf['service'], $conf['port'], $conf['user'], $conf['passord']);
 
 //构建邮件
 $mail = array(

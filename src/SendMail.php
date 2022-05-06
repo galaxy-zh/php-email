@@ -1,6 +1,6 @@
 <?php
 
-namespace phpEmail\phpEmail;
+namespace PhpEmail\PhpEmail;
 
 class SendMail
 {
